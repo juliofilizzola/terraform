@@ -4,6 +4,12 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+*/terraform.tfvars
+*.auto.tfvars
+*/terraform.tfstate
+*/terraform.tfstate.backup
+*/.terraform
+*/mykey*
 
 # Crash log files
 crash.log
